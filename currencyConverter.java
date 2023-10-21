@@ -65,7 +65,7 @@ public class currencyConverter {
                 double euro = sc.nextDouble();
 
                 if(euro>=0) {
-                    System.out.println(euro + " Rupees is " + (euro*80.85) + " Rupee ");
+                    System.out.println(euro + " Euro is " + (euro*80.85) + " Rupee ");
                 } else {
                     System.err.println("Please enter the Positive Numbers of Rupee");
                 }
